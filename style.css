@@ -1,0 +1,124 @@
+/* Font  */
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  background: url('./images/bg-desktop.svg') hsl(257, 40%, 49%) no-repeat center
+    fixed;
+  /* color: beige; */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.logo {
+  padding: 2rem;
+  /* height: 3rem; */
+  width: 17rem;
+  /* background: red; */
+  /* transform: scale(0.75); */
+  /* transform: scale(); */
+  /* position: fixed; */
+  width: 50px;
+  height: 50px;
+}
+.main {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 60vh; */
+  margin: auto;
+  /* height: 20rem;
+  width: 40rem; */
+  /* background: royalblue; */
+  flex-wrap: nowrap;
+}
+.screenshot {
+  /* transform: scale(1); */
+  /* padding: 2rem; */
+  padding-right: 26rem;
+  max-height: 20rem;
+  max-width: 15rem;
+  /* background: red; */
+}
+.illustration {
+  /* padding-bottom: 5rem; */
+  width: 650px;
+  height: auto;
+}
+.texts {
+  padding: 1rem;
+  /* margin: 5rem; */
+  max-height: 23rem;
+  max-width: 30rem;
+  /* background: blue; */
+  color: white;
+}
+h1 {
+  /* padding: 0.5rem; */
+  margin: 1rem;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 20px; */
+  text-transform: capitalize;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding: 1rem;
+}
+.btn {
+  color: hsl(257, 40%, 49%);
+  background: hsl(0, 0%, 95%);
+  height: 3rem;
+  width: 12rem;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+#logo-head {
+  max-width: 200px;
+  padding-left: 2rem;
+}
+@media screen and (max-width: 986px) {
+  * {
+    background: url('images/bg-mobile.svg') fixed no-repeat hsl(257, 40%, 49%);
+  }
+
+  /* Mobile  */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: yellow; */
+    justify-content: center;
+    /* width: 90rem; */
+    /* height: 50rem; */
+    /* min-height: 60vh; */
+  }
+  .screenshot {
+    /* padding-right: 0rem; */
+
+    /* max-height: 2rem;
+    max-width: 3rem; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* background: red; */
+    /* transform: scale(0.5); */
+    /* height: auto; */
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .illustration {
+    max-width: 600px;
+    height: auto;
+  }
+  .texts {
+    /* padding-bottom: 20rem; */
+    /* max-height: 14rem;
+    max-width: 22rem; */
+    /* padding: 0rem; */
+    /* background: blue; */
+    color: white;
+    margin: 120px;
+  }
+}
